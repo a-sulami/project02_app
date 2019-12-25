@@ -11,7 +11,7 @@
       <% @last_episodes.each do |lastEpisode| %>
       <div class="col-lg-3 col-md-6 py-2">
         <div class="card-body bg-dark">
-          <h4 class="card-title mb-1"><%= link_to lastEpisode.name, last_episode_path(lastEpisode) %></h4>
+          <h4 class=" text-primary card-title mb-1"><%= link_to lastEpisode.name, last_episode_path(lastEpisode) %></h4>
           
             <p class="card-text mb-1"><%= link_to lastEpisode.episode_number, last_episode_path(lastEpisode) %></p>
           </div>

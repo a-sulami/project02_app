@@ -1,17 +1,17 @@
 <%= form_with(model: @comment, local: true, url: last_episode_comments_path) do |form| %>
 
     
-  <div class="field container mt-5">
+  <div class="field container-fluid mt-2">
     <div class="row cardBody py-5 mt-5">
       <div class="col-lg-4 py-2">
         <div class="card-body bg-dark">
 
-  <div class="field">
+  <div class="field text-info">
     <%= form.label :content %>
     <%= form.text_area :content, class:"forminput"%>
   </div>
 
-  <div class="actions">
+  <div class="actions text-info btn btn-primary bg-dark">
     <%= form.submit %>
      </div>
    </div>
