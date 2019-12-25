@@ -1,0 +1,31 @@
+
+  <div class="container mt-5">
+<h1><%= current_user.id %>'s Last Episodes</h1>
+
+
+<div class="row cardBody py-5 mt-5">
+   <div class="col-lg-3 col-md-6 py-2">
+    <div class="card-body bg-dark">
+  <h4 class="card-title mb-1"> Series Name :<%= @last_episode.name%></h4>
+  <ul>
+    <li class="card-text "> Episode Number : <%= @last_episode.episode_number%></li>
+    <li><%= link_to 'Delete Series', @last_episode, method: :delete  %></li>
+    <p> <%= link_to 'New Comment', new_last_episode_comment_path(@last_episode) %></p>
+    <h2 class="card-title mb-1" >Comments : </h2>
+    <% @last_episode.comments.each do |c|%>
+   <li> <%=c.content%></li>
+    <%end%>
+</ul>
+</div>
+   </div>
+    </div>
+</div>
+
+</body>
+</html>
+
+
+   
+         
+
+
