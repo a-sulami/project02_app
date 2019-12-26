@@ -1,25 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+What is the application about?
+The application is a reminder for your Tv-Series episodes where you have reched and a certin series and what was your comments about it .
 
-Things you may want to cover:
+Is there any information you think might help us understand what you built?
+i used Rails and ruby for the back end and MySql fir the database, Bootstrap libraries for the front end with css .
+Demo of application
+What features did you include?
+CRUD and users with every user has its own page .
 
-* Ruby version
+What was the most difficult part of the project?
+Bootstrap .
+What was your favorite part to work on?
+working with rails.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# project02_app
+What would you like to add next?
+adding reviews and make it public .
