@@ -39,7 +39,7 @@ class LastEpisodesController < ApplicationController
     if @last_episode.present?
       @last_episode.destroy
     end
-    redirect_to @last_episode
+    redirect_to last_episodes
   end
 
   private

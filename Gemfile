@@ -6,9 +6,9 @@ ruby '2.6.5'
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'bootstrap', '~> 4.4.1'
 gem 'jquery-rails'
-#	gem 'therubyracer'
-#	gem 'less-rails-bootstrap'
-  gem 'jquery-easing-rails'
+gem 'therubyracer'
+# gem 'less-rails-bootstrap' this gem if u uncomment it the server will not work
+gem 'jquery-easing-rails'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.2', '>= 6.0.2.1'

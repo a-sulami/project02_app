@@ -14,7 +14,7 @@
     <% @last_episode.comments.each do |c|%>
    <li class="text-info" ><p> <%=c.content%></p></li>
     <%end%>
-                <p class="btn btn-primary bg-dark"><%= link_to 'Delete Series', @last_episode, method: :delete  %></p>
+            <p class="btn btn-primary bg-dark"> <%= link_to 'Delete Serie', delete_epi_path(@last_episode), method: :delete, data: {confirm: 'Are you sure?'} %></p>
             <p class="btn btn-primary bg-dark"><%= link_to 'Add Comment',  new_last_episode_comment_path(@last_episode) %></p>
 </ul>
 </div>
@@ -22,8 +22,6 @@
     </div>
 </div>
 
-</body>
-</html>
 
 
    
